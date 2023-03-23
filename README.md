@@ -45,7 +45,8 @@ go to this api and create post request:
  Select form-data and write file in key
  Then add the file for data insertion as shown in the picture: 
  
- ![image](https://user-images.githubusercontent.com/50213989/227124419-b04fe310-4dc6-48f9-9743-62dfc50884a3.png)
+![postman](https://user-images.githubusercontent.com/50213989/227125195-2cec7fb3-ded8-4be1-bc66-409de8aeb7cb.png)
+
 
 
 # watch mode
