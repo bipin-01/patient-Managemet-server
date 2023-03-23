@@ -36,7 +36,17 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ docker compose up
+$ npx prisma migrate dev
+
+pass file through postman:
+go to this api and create post request: 
+   - http://localhost:3000/patients/post-add
+ Select form-data and write file in key
+ Then add the file for data insertion as shown in the picture: 
+ 
+ ![image](https://user-images.githubusercontent.com/50213989/227124419-b04fe310-4dc6-48f9-9743-62dfc50884a3.png)
+
 
 # watch mode
 $ npm run start:dev
@@ -45,28 +55,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
