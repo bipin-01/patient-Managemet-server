@@ -42,13 +42,10 @@ $ npx prisma migrate dev
 pass file through postman:
 go to this api and create post request: 
    - http://localhost:3000/patients/post-add
- Select form-data and write file in key
- Then add the file for data insertion as shown in the picture: 
+ - Select form-data
+ - write file in key
+ - then choose the file you want to upload
  
-![postman](https://user-images.githubusercontent.com/50213989/227125195-2cec7fb3-ded8-4be1-bc66-409de8aeb7cb.png)
-
-
-
 # watch mode
 $ npm run start:dev
 
